@@ -1,10 +1,10 @@
 require "rspec"
-require_relative 'twitter_o_auth'
+require_relative 'o_auth_buddy'
 
 describe "TwitterOAuth behaviour" do
 
   before(:each) do
-    @oauth = TwitterOAuth.new("82fFtDtz3IQj5Hc7M1whBQ", 'XtcjPlTeVo8ZroQOlQLUJFMYbCz0eipOAZIAmatvkpw',
+    @oauth = OAuthBuddy.new("82fFtDtz3IQj5Hc7M1whBQ", 'XtcjPlTeVo8ZroQOlQLUJFMYbCz0eipOAZIAmatvkpw',
                               '385960709-gYAi6Ld5K7fCoxFVDpjXVXBnDTZ25RrCs94g64pT',
                               'sUEUWMaj5EhXqS1QOjvCbqIecJpAqu3da3oy8Cinc')
 

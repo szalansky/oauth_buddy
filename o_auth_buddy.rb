@@ -4,7 +4,7 @@ require 'base64'
 require 'openssl'
 require 'time'
 
-class TwitterOAuth
+class OAuthBuddy
   def initialize consumer_key, consumer_secret, token, token_secret,
                 method='GET', signature_method='HMAC-SHA1',
                 base_url = 'https://api.twitter.com/1.1/search/tweets.json',
